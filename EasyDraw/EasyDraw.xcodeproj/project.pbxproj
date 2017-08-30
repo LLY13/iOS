@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3214571F456741002278AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3214561F456741002278AB /* AppDelegate.swift */; };
+		6C3214591F456741002278AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3214581F456741002278AB /* ViewController.swift */; };
+		6C32145C1F456741002278AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C32145A1F456741002278AB /* Main.storyboard */; };
+		6C32145E1F456741002278AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C32145D1F456741002278AB /* Assets.xcassets */; };
+		6C3214611F456741002278AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C32145F1F456741002278AB /* LaunchScreen.storyboard */; };
+		6C32146C1F456741002278AB /* EasyDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32146B1F456741002278AB /* EasyDrawTests.swift */; };
+		6C3214771F456741002278AB /* EasyDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3214761F456741002278AB /* EasyDrawUITests.swift */; };
+		6C3214891F456995002278AB /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3214881F456995002278AB /* Shapes.swift */; };
+		6C32148C1F456B09002278AB /* ShapePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32148B1F456B09002278AB /* ShapePath.swift */; };
+		6C32148E1F456F16002278AB /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32148D1F456F16002278AB /* CustomColors.swift */; };
+		6C612ACF1F4E9E9000F8F7AF /* clearImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612AC61F4E9E9000F8F7AF /* clearImage.png */; };
+		6C612AD01F4E9E9000F8F7AF /* eraserImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612AC71F4E9E9000F8F7AF /* eraserImage.png */; };
+		6C612AD11F4E9E9000F8F7AF /* freeStyleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612AC81F4E9E9000F8F7AF /* freeStyleImage.png */; };
+		6C612AD21F4E9E9000F8F7AF /* lineImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612AC91F4E9E9000F8F7AF /* lineImage.png */; };
+		6C612AD31F4E9E9000F8F7AF /* ovalImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612ACA1F4E9E9000F8F7AF /* ovalImage.png */; };
+		6C612AD41F4E9E9000F8F7AF /* rectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612ACB1F4E9E9000F8F7AF /* rectImage.png */; };
+		6C612AD51F4E9E9000F8F7AF /* saveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612ACC1F4E9E9000F8F7AF /* saveImage.png */; };
+		6C612AD61F4E9E9000F8F7AF /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612ACD1F4E9E9000F8F7AF /* star.png */; };
+		6C612AD71F4E9E9000F8F7AF /* triangleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C612ACE1F4E9E9000F8F7AF /* triangleImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C3214681F456741002278AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C32144B1F456741002278AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3214521F456741002278AB;
+			remoteInfo = EasyDraw;
+		};
+		6C3214731F456741002278AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C32144B1F456741002278AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3214521F456741002278AB;
+			remoteInfo = EasyDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C3214531F456741002278AB /* EasyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3214561F456741002278AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C3214581F456741002278AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C32145B1F456741002278AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C32145D1F456741002278AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C3214601F456741002278AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C3214621F456741002278AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3214671F456741002278AB /* EasyDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C32146B1F456741002278AB /* EasyDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyDrawTests.swift; sourceTree = "<group>"; };
+		6C32146D1F456741002278AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3214721F456741002278AB /* EasyDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3214761F456741002278AB /* EasyDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyDrawUITests.swift; sourceTree = "<group>"; };
+		6C3214781F456741002278AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3214881F456995002278AB /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		6C32148B1F456B09002278AB /* ShapePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapePath.swift; sourceTree = "<group>"; };
+		6C32148D1F456F16002278AB /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		6C612AC61F4E9E9000F8F7AF /* clearImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clearImage.png; path = Assets.xcassets/clearImage.png; sourceTree = "<group>"; };
+		6C612AC71F4E9E9000F8F7AF /* eraserImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eraserImage.png; path = Assets.xcassets/eraserImage.png; sourceTree = "<group>"; };
+		6C612AC81F4E9E9000F8F7AF /* freeStyleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = freeStyleImage.png; path = Assets.xcassets/freeStyleImage.png; sourceTree = "<group>"; };
+		6C612AC91F4E9E9000F8F7AF /* lineImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lineImage.png; path = Assets.xcassets/lineImage.png; sourceTree = "<group>"; };
+		6C612ACA1F4E9E9000F8F7AF /* ovalImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ovalImage.png; path = Assets.xcassets/ovalImage.png; sourceTree = "<group>"; };
+		6C612ACB1F4E9E9000F8F7AF /* rectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectImage.png; path = Assets.xcassets/rectImage.png; sourceTree = "<group>"; };
+		6C612ACC1F4E9E9000F8F7AF /* saveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveImage.png; path = Assets.xcassets/saveImage.png; sourceTree = "<group>"; };
+		6C612ACD1F4E9E9000F8F7AF /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = Assets.xcassets/star.png; sourceTree = "<group>"; };
+		6C612ACE1F4E9E9000F8F7AF /* triangleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangleImage.png; path = Assets.xcassets/triangleImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3214501F456741002278AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3214641F456741002278AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C32146F1F456741002278AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C32144A1F456741002278AB = {
+			isa = PBXGroup;
+			children = (
+				6C3214551F456741002278AB /* EasyDraw */,
+				6C32146A1F456741002278AB /* EasyDrawTests */,
+				6C3214751F456741002278AB /* EasyDrawUITests */,
+				6C3214541F456741002278AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C3214541F456741002278AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C3214531F456741002278AB /* EasyDraw.app */,
+				6C3214671F456741002278AB /* EasyDrawTests.xctest */,
+				6C3214721F456741002278AB /* EasyDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C3214551F456741002278AB /* EasyDraw */ = {
+			isa = PBXGroup;
+			children = (
+				6C3214841F456765002278AB /* Others */,
+				6C3214861F45692C002278AB /* Controller */,
+				6C3214871F456958002278AB /* View */,
+				6C3214851F4568EA002278AB /* Assets */,
+				6C32148A1F45699C002278AB /* Model */,
+			);
+			path = EasyDraw;
+			sourceTree = "<group>";
+		};
+		6C32146A1F456741002278AB /* EasyDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C32146B1F456741002278AB /* EasyDrawTests.swift */,
+				6C32146D1F456741002278AB /* Info.plist */,
+			);
+			path = EasyDrawTests;
+			sourceTree = "<group>";
+		};
+		6C3214751F456741002278AB /* EasyDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C3214761F456741002278AB /* EasyDrawUITests.swift */,
+				6C3214781F456741002278AB /* Info.plist */,
+			);
+			path = EasyDrawUITests;
+			sourceTree = "<group>";
+		};
+		6C3214841F456765002278AB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6C3214621F456741002278AB /* Info.plist */,
+				6C3214561F456741002278AB /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		6C3214851F4568EA002278AB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C612AC61F4E9E9000F8F7AF /* clearImage.png */,
+				6C612AC71F4E9E9000F8F7AF /* eraserImage.png */,
+				6C612AC81F4E9E9000F8F7AF /* freeStyleImage.png */,
+				6C612AC91F4E9E9000F8F7AF /* lineImage.png */,
+				6C612ACA1F4E9E9000F8F7AF /* ovalImage.png */,
+				6C612ACB1F4E9E9000F8F7AF /* rectImage.png */,
+				6C612ACC1F4E9E9000F8F7AF /* saveImage.png */,
+				6C612ACD1F4E9E9000F8F7AF /* star.png */,
+				6C612ACE1F4E9E9000F8F7AF /* triangleImage.png */,
+				6C32145D1F456741002278AB /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6C3214861F45692C002278AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C3214581F456741002278AB /* ViewController.swift */,
+				6C32148D1F456F16002278AB /* CustomColors.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6C3214871F456958002278AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C32145A1F456741002278AB /* Main.storyboard */,
+				6C32145F1F456741002278AB /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6C32148A1F45699C002278AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C3214881F456995002278AB /* Shapes.swift */,
+				6C32148B1F456B09002278AB /* ShapePath.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3214521F456741002278AB /* EasyDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C32147B1F456741002278AB /* Build configuration list for PBXNativeTarget "EasyDraw" */;
+			buildPhases = (
+				6C32144F1F456741002278AB /* Sources */,
+				6C3214501F456741002278AB /* Frameworks */,
+				6C3214511F456741002278AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyDraw;
+			productName = EasyDraw;
+			productReference = 6C3214531F456741002278AB /* EasyDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C3214661F456741002278AB /* EasyDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C32147E1F456741002278AB /* Build configuration list for PBXNativeTarget "EasyDrawTests" */;
+			buildPhases = (
+				6C3214631F456741002278AB /* Sources */,
+				6C3214641F456741002278AB /* Frameworks */,
+				6C3214651F456741002278AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C3214691F456741002278AB /* PBXTargetDependency */,
+			);
+			name = EasyDrawTests;
+			productName = EasyDrawTests;
+			productReference = 6C3214671F456741002278AB /* EasyDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C3214711F456741002278AB /* EasyDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3214811F456741002278AB /* Build configuration list for PBXNativeTarget "EasyDrawUITests" */;
+			buildPhases = (
+				6C32146E1F456741002278AB /* Sources */,
+				6C32146F1F456741002278AB /* Frameworks */,
+				6C3214701F456741002278AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C3214741F456741002278AB /* PBXTargetDependency */,
+			);
+			name = EasyDrawUITests;
+			productName = EasyDrawUITests;
+			productReference = 6C3214721F456741002278AB /* EasyDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C32144B1F456741002278AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Longyi Li";
+				TargetAttributes = {
+					6C3214521F456741002278AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					6C3214661F456741002278AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C3214521F456741002278AB;
+					};
+					6C3214711F456741002278AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C3214521F456741002278AB;
+					};
+				};
+			};
+			buildConfigurationList = 6C32144E1F456741002278AB /* Build configuration list for PBXProject "EasyDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C32144A1F456741002278AB;
+			productRefGroup = 6C3214541F456741002278AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C3214521F456741002278AB /* EasyDraw */,
+				6C3214661F456741002278AB /* EasyDrawTests */,
+				6C3214711F456741002278AB /* EasyDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3214511F456741002278AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C612AD51F4E9E9000F8F7AF /* saveImage.png in Resources */,
+				6C612AD01F4E9E9000F8F7AF /* eraserImage.png in Resources */,
+				6C3214611F456741002278AB /* LaunchScreen.storyboard in Resources */,
+				6C32145E1F456741002278AB /* Assets.xcassets in Resources */,
+				6C32145C1F456741002278AB /* Main.storyboard in Resources */,
+				6C612ACF1F4E9E9000F8F7AF /* clearImage.png in Resources */,
+				6C612AD31F4E9E9000F8F7AF /* ovalImage.png in Resources */,
+				6C612AD21F4E9E9000F8F7AF /* lineImage.png in Resources */,
+				6C612AD11F4E9E9000F8F7AF /* freeStyleImage.png in Resources */,
+				6C612AD71F4E9E9000F8F7AF /* triangleImage.png in Resources */,
+				6C612AD61F4E9E9000F8F7AF /* star.png in Resources */,
+				6C612AD41F4E9E9000F8F7AF /* rectImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3214651F456741002278AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3214701F456741002278AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C32144F1F456741002278AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C32148C1F456B09002278AB /* ShapePath.swift in Sources */,
+				6C32148E1F456F16002278AB /* CustomColors.swift in Sources */,
+				6C3214591F456741002278AB /* ViewController.swift in Sources */,
+				6C3214571F456741002278AB /* AppDelegate.swift in Sources */,
+				6C3214891F456995002278AB /* Shapes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3214631F456741002278AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C32146C1F456741002278AB /* EasyDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C32146E1F456741002278AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3214771F456741002278AB /* EasyDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C3214691F456741002278AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C3214521F456741002278AB /* EasyDraw */;
+			targetProxy = 6C3214681F456741002278AB /* PBXContainerItemProxy */;
+		};
+		6C3214741F456741002278AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C3214521F456741002278AB /* EasyDraw */;
+			targetProxy = 6C3214731F456741002278AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C32145A1F456741002278AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C32145B1F456741002278AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C32145F1F456741002278AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3214601F456741002278AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C3214791F456741002278AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C32147A1F456741002278AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C32147C1F456741002278AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLY.EasyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C32147D1F456741002278AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLY.EasyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C32147F1F456741002278AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLY.EasyDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyDraw.app/EasyDraw";
+			};
+			name = Debug;
+		};
+		6C3214801F456741002278AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLY.EasyDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyDraw.app/EasyDraw";
+			};
+			name = Release;
+		};
+		6C3214821F456741002278AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLY.EasyDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyDraw;
+			};
+			name = Debug;
+		};
+		6C3214831F456741002278AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLY.EasyDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C32144E1F456741002278AB /* Build configuration list for PBXProject "EasyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3214791F456741002278AB /* Debug */,
+				6C32147A1F456741002278AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C32147B1F456741002278AB /* Build configuration list for PBXNativeTarget "EasyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C32147C1F456741002278AB /* Debug */,
+				6C32147D1F456741002278AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C32147E1F456741002278AB /* Build configuration list for PBXNativeTarget "EasyDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C32147F1F456741002278AB /* Debug */,
+				6C3214801F456741002278AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3214811F456741002278AB /* Build configuration list for PBXNativeTarget "EasyDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3214821F456741002278AB /* Debug */,
+				6C3214831F456741002278AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C32144B1F456741002278AB /* Project object */;
+}
